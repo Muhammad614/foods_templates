@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>LOGOS - Главная страница</title>
+</head>
+
+<body> 
+
+  <!-- ========== HEADER ========== -->
+
+  <section class="header">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav__logo">
+          <div class="burger">
+            <a href="">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <a href="index.html"><img src="media/images/LOGOS.png" alt=""></a>
+          <div class="dropdown">
+            <span style="margin-left: 7px;">Категории <i class="fa-solid fa-caret-down" style="color: #fff; margin-left: 5px;"></i></span>
+            <div class="dropdown-content">
+              <p><a href="categories.html">Холодные</a></p>
+              <p><a href="categories.html">Горячие</a></p>
+              <p><a href="categories.html">Мясные блюда</a></p>
+              <p><a href="categories.html">Супы</a></p>
+              <p><a href="categories.html">Рыбные блюда</a></p>
+              <p><a href="categories.html">Гриль меню</a></p>
+              <p><a href="categories.html">Фирменные блюда</a></p>
+              <p><a href="categories.html">Напитки</a></p>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav__search-form">
+          <form method="get">
+            <div class="search-input">
+              <input type="text" placeholder="Введите запрос">
+              <img src="media/images/Search.png" alt="">
+            </div>
+          </form>
+        </li>
+
+        <li class="nav__contacts">
+          <i class="fa-solid fa-phone-volume"></i>
+          <h4>Контакты: <br> <span>+7 (917) 510-57-59</span></h4>
+        </li>
+
+        <li class="nav__cart">
+          <img src="media/images/Buy.png" alt="">
+
+          <h3><a href="/cart.html/">Корзина</a></h3>
+
+          <div class="line"></div>
+
+          <h4>4</h4>
+        </li>
+
+      </ul>
+      <div class="nav">
+        <li class="nav__search-form ssf">
+          <form method="get">
+            <div class="search-input">
+              <input type="text" placeholder="Введите запрос">
+              <img src="media/images/Search.png" alt="">
+            </div>
+          </form>
+        </li>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END HEADER ========== -->
+
+
+
+  <!-- ========== SECTION ========= -->
+
+  <section class="main">
+    <div class="container">
+      <div class="mian-section-content msc">
+        <div class="first-img"><img src="media/images/sc-1-1.png" alt=""></div>
+        <div class="second-img"><img src="media/images/Screenshot_2.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END SECTION ========= -->
+
+
+
+  <!-- ========== CATEGORY SHOP ========== -->
+
+  <section class="category-shop">
+    <div class="slideshow-container">
+      <div style="text-align:center" class="slideshow-wrapper">
+        <span class="dot" onclick="currentSlide(1)">Холодные закуски</span>
+        <span class="dot" onclick="currentSlide(2)">Горячие закуски</span>
+        <span class="dot" onclick="currentSlide(3)">Мясные блюда</span>
+        <span class="dot" onclick="currentSlide(4)">Супы</span>
+        <span class="dot" onclick="currentSlide(5)">Рыбные блюда</span>
+        <span class="dot" onclick="currentSlide(6)">Гриль меню</span>
+        <span class="dot" onclick="currentSlide(7)">Фирменные блюда</span>
+        <span class="dot" onclick="currentSlide(8)">Напитки</span>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="category-shop-cards">
+
+      <div class="slider-wrapper">
+        <div class="mySlides fade">
+          <h1>ХОЛОДНЫЕ ЗАКУСКИ</h1>
+
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title"><a href="/detail.html">Ягненок</a> <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>ГОРЯЧИЕ ЗАКУСКИ</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>МЯСНЫЕ БЛЮДА</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>СУПЫ</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>РЫБНЫЕ БЛЮДА</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>ГРИЛЬ МЕНЮ</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>ФИРМЕННЫЕ БЛЮДА</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>НАПИТКИ</h1>
+          <div class="card-wrapper">
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/3.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный яблоками</h3>
+
+                <div class="price-more">
+                  <h5 class="price">7 900 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/4.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+                <div class="price-more">
+                  <h5 class="price">3 230 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/1.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">620 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-product">
+              <img src="media/images/2.png" alt="" class="product-img">
+
+              <div class="content">
+                <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+                <h3 class="description">Фаршированный гречневой кашей,
+                  курагой, апельсином и зеленым яблоком</h3>
+
+                <div class="price-more">
+                  <h5 class="price">450 ₽</h5>
+
+                  <button class="more-button">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== END CATEGORY SHOP ========== -->
+
+
+
+  <!-- ========== TOP PRODUCTS ========== -->
+
+  <section class="top-products category-shop">
+    <div class="top-products-wrapper"
+      style="max-width: 1500px; display: block; margin-left: auto; margin-right: auto; padding-top: 50px;">
+      <h1 class="product-title">ПОПУЛЯРНЫЕ</h1>
+      <div class="card-wrapper">
+        <div class="card-product">
+          <img src="media/images/1.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">620 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/2.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">450 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/3.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный яблоками</h3>
+
+            <div class="price-more">
+              <h5 class="price">7 900 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/4.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+            <div class="price-more">
+              <h5 class="price">3 230 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/1.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">620 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/2.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">450 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END TOP PRODUCTS ========== -->
+
+
+
+  <!-- ========== TOP PRODUCTS ========== -->
+
+  <section class="top-products category-shop">
+    <div class="top-products-wrapper"
+      style="max-width: 1500px; display: block; margin-left: auto; margin-right: auto; padding-top: 50px;">
+      <h1 class="product-title">СО СКИДКОЙ</h1>
+      <div class="card-wrapper">
+        <div class="card-product">
+          <img src="media/images/1.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">620 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/2.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">450 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/3.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Гусь <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный яблоками</h3>
+
+            <div class="price-more">
+              <h5 class="price">7 900 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/4.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Утка <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированная рисом, курагой и айвой</h3>
+
+            <div class="price-more">
+              <h5 class="price">3 230 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/1.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Ягненок <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">620 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-product">
+          <img src="media/images/2.png" alt="" class="product-img">
+
+          <div class="content">
+            <h2 class="title">Индейка <span>Вес: 225 г</span></h2>
+
+
+            <h3 class="description">Фаршированный гречневой кашей,
+              курагой, апельсином и зеленым яблоком</h3>
+
+            <div class="price-more">
+              <h5 class="price">450 ₽</h5>
+
+              <button class="more-button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END TOP PRODUCTS ========== -->
+
+
+
+  <!-- ========== ABOUT US ========== -->
+
+  <section class="about">
+    <div class="container">
+      <div class="gradient">
+        <div class="about-wrapper">
+          <div class="about-text">
+            <h1>НАШЕ КАФЕ</h1>
+
+            <p>Мы расположены в одном из самых живописных мест <br> города — на берегу реки, это ваш оазис в черте
+              города, <br>
+              куда можно сбежать от шумного и пыльного мегаполиса. <br> Мы, действительно уникальные, ведь все продумано
+              до <br>
+              мелочей: проект построен из дикого закарпатского сруба, <br> камин в основном зале ресторана и панорамные
+              окна <br>
+              с видом на реку, уютные беседки на берегу реки и лучшая <br> видовая террасса, шатер с посадкой на 200
+              человек, <br>
+              сказочный детский домик и бассейн.</p>
+
+            <button>ПОСМОТРЕТЬ МЕНЮ</button>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <center>
+                <img src="media/images/onion1.png" alt="">
+
+                <h4>Свежайшие продукты</h4>
+              </center>
+            </div>
+
+            <div class="card">
+              <center>
+                <img src="media/images/Group.png" alt="">
+
+                <h4>Свежайшие продукты</h4>
+              </center>
+            </div>
+            <div class="card">
+              <center>
+                <img src="media/images/Group.png" alt="">
+
+                <h4>Свежайшие продукты</h4>
+              </center>
+            </div>
+
+            <div class="card">
+              <center>
+                <img src="media/images/onion1.png" alt="">
+
+                <h4>Свежайшие продукты</h4>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END ABOUT US ========== -->
+
+
+
+  <!-- ========== CONTACTS ========== -->
+
+  <section class="contacts">
+    <div class="container">
+      <div class="contact-wrapper">
+        <h1>КОНТАКТЫ</h1>
+
+        <div class="contact-hr"></div>
+
+        <h3><i class="fa-solid fa-location-dot"></i> Наш адрес</h3>
+
+        <h4>МО, городской округ Красногорск, село Ильинкое, Экспериментальная улица, 10</h4>
+
+        <h3><i class="fa-solid fa-envelope"></i> Наша почта</h3>
+
+        <h4>auto.wash@gmail.com</h4>
+
+        <div class="contact-hr"></div>
+
+        <div class="table">
+          <div>
+            <button>
+              ЗАБРОНИРОВАТЬ СТОЛ
+            </button>
+          </div>
+
+          <div>
+            <h5>+7 (917) 510-57-59</h5>
+            <p>Звоните или оставляйте заявку</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END CONTACTS ========== -->
+
+
+
+  <!-- ========== FOOTER ========== -->
+
+  <footer>
+    <div class="container">
+      <ul class="footer-wrapper">
+        <li>
+          <img src="media/images/LOGOS.png" alt="">
+          <h3>© ООО СК «АПШЕРОН» <br>
+            Все права защищены. 2010-2020</h3>
+
+          <h4>Пользовательское соглашение</h4>
+          <h4>Карта сайта</h4>
+          <h4>Политика конфиденциальности</h4>
+        </li>
+        <li>
+          <h6>О ресторане</h6>
+        </li>
+        <li>
+          <h6>Условия доставки</h6>
+        </li>
+        <li>
+          <h6>Возврат товара</h6>
+        </li>
+        <li>
+          <h6>Магазин</h6>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ========== END FOOTER ========== -->
+
+
+  <script src="static/js/script.js"></script>
+</body>
+
+</html>

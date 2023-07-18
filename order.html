@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<body style="background: #383535;">
+  <!-- ========== HEADER ========== -->
+
+  <section class="header">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav__logo">
+          <div class="burger">
+            <a href="">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <a href="index.html"><img src="media/images/LOGOS.png" alt=""></a>
+          <div class="dropdown">
+            <span style="margin-left: 7px;">Категории</span>
+            <div class="dropdown-content">
+              <p><a href="categories.html">Холодные</a></p>
+              <p><a href="categories.html">Горячие</a></p>
+              <p><a href="categories.html">Мясные блюда</a></p>
+              <p><a href="categories.html">Супы</a></p>
+              <p><a href="categories.html">Рыбные блюда</a></p>
+              <p><a href="categories.html">Гриль меню</a></p>
+              <p><a href="categories.html">Фирменные блюда</a></p>
+              <p><a href="categories.html">Напитки</a></p>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav__search-form">
+          <form method="get">
+            <div class="search-input">
+              <input type="text" placeholder="Введите запрос">
+              <img src="media/images/Search.png" alt="">
+            </div>
+          </form>
+        </li>
+
+        <li class="nav__contacts">
+          <i class="fa-solid fa-phone-volume"></i>
+          <h4>Контакты: <br> <span>+7 (917) 510-57-59</span></h4>
+        </li>
+
+        <li class="nav__cart">
+          <img src="media/images/Buy.png" alt="">
+
+          <h3><a href="">Корзина</a></h3>
+
+          <div class="line"></div>
+
+          <h4>4</h4>
+        </li>
+
+      </ul>
+      <div class="nav">
+        <li class="nav__search-form ssf">
+          <form method="get">
+            <div class="search-input">
+              <input type="text" placeholder="Введите запрос">
+              <img src="media/images/Search.png" alt="">
+            </div>
+          </form>
+        </li>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== END HEADER ========== -->
+
+
+  <!-- ========== CATEGORY SHOP ========== -->
+
+  <section class="category-shop">
+    <div class="slideshow-container">
+      <div style="text-align:center" class="slideshow-wrapper">
+        <span class="dot" onclick="currentSlide(1)">Холодные закуски</span>
+        <span class="dot" onclick="currentSlide(2)">Горячие закуски</span>
+        <span class="dot" onclick="currentSlide(3)">Мясные блюда</span>
+        <span class="dot" onclick="currentSlide(4)">Супы</span>
+        <span class="dot" onclick="currentSlide(5)">Рыбные блюда</span>
+        <span class="dot" onclick="currentSlide(6)">Гриль меню</span>
+        <span class="dot" onclick="currentSlide(7)">Фирменные блюда</span>
+        <span class="dot" onclick="currentSlide(8)">Напитки</span>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+    <div class="slider-wrapper">
+      <div class="mySlides fade">
+        <h1>ХОЛОДНЫЕ ЗАКУСКИ</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>ГОРЯЧИЕ ЗАКУСКИ</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>МЯСНЫЕ БЛЮДА</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>СУПЫ</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>РЫБНЫЕ БЛЮДА</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>ГРИЛЬ МЕНЮ</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>ФИРМЕННЫЕ БЛЮДА</h1>
+      </div>
+
+      <div class="mySlides fade">
+        <h1>НАПИТКИ</h1>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== END CATEGORY SHOP ========== -->
+
+
+
+  <!-- ========== ORDERING ========== -->
+
+  <section class="ordering">
+    <div class="container">
+      <h1 class="cart-title ordering-title">Оформление заказа</h1>
+      <div class="ordering-content">
+        <div class="contact ordering-card">
+          <h2 class="title">1. Контактная информация</h2>
+
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Имя*">
+
+            <input type="number" placeholder="Телефон*">
+          </form>
+        </div>
+
+        <div class="address ordering-card">
+          <h2 class="title">2. Доставка</h2>
+
+          <form action="" class="address-form">
+            <input type="text" placeholder="Адрес*">
+
+            <textarea placeholder="Коммнетарий*" rows="5"></textarea>
+          </form>
+        </div>
+
+        <div class="pay contact ordering-card">
+          <h2 class="title">3. Оплата</h2>
+
+          <form action="" class="pay-form contact-form">
+            <input type="number" max="8" min="8" placeholder="Номер карты*">
+            <input type="text" placeholder="Владелец карты (как на карте)*">
+
+          </form>
+        </div>
+
+        <a href="/" class="more-button" style="margin-top: 30px; display: block; width: 15%; text-align: center;">Оформить заказ</a>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+  <br>
+
+  <!-- ========== END ORDERING ========== -->
+
+
+
+  <!-- ========== FOOTER ========== -->
+
+  <footer>
+    <div class="container">
+      <ul class="footer-wrapper">
+        <li>
+          <img src="media/images/LOGOS.png" alt="">
+          <h3>© ООО СК «АПШЕРОН» <br>
+            Все права защищены. 2010-2020</h3>
+
+          <h4>Пользовательское соглашение</h4>
+          <h4>Карта сайта</h4>
+          <h4>Политика конфиденциальности</h4>
+        </li>
+        <li>
+          <h6>О ресторане</h6>
+        </li>
+        <li>
+          <h6>Условия доставки</h6>
+        </li>
+        <li>
+          <h6>Возврат товара</h6>
+        </li>
+        <li>
+          <h6>Магазин</h6>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ========== END FOOTER ========== -->
+</body>
+
+</html>
